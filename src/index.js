@@ -5,7 +5,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { lat: null };
+    this.state = { lat: 40 };
   }
 
   render() {
@@ -13,7 +13,7 @@ class App extends React.Component {
       (position) => console.log(position),
       (err) => console.log(err)
     );
-    return <>Latitude: </>;
+    return <>Latitude: {this.state.lat}</>;
   }
 }
 
