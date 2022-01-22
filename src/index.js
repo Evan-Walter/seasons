@@ -6,7 +6,14 @@ function App() {
     (position) => console.log(position),
     (err) => console.log(err)
   );
-  return <>App</>;
+
+  return <>Latitude: </>;
+}
+
+class App extends React.Component {
+  render() {
+    return <>Latitude: </>;
+  }
 }
 
 ReactDOM.render(<App />,
