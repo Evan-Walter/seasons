@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function SeasonDisplay() {
-  return <div></div>;
+export default function SeasonDisplay({ lat }) {
+  return <>Latitude: {lat}</>;
 }
