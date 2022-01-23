@@ -1,4 +1,5 @@
 import React from 'react';
+import '../index.css';
 import SeasonDisplay from './SeasonDisplay';
 import Spinner from './Spinner';
 
