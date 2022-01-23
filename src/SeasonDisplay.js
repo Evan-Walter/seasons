@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default function SeasonDisplay({ lat }) {
   const seasonConfig = {
     summer: {
