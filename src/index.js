@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisplay from './SeasonDisplay';
+import './index.css';
 
 class App extends React.Component {
   state = { lat: null, errorMessage: '' };
