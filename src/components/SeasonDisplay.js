@@ -26,7 +26,7 @@ export default function SeasonDisplay({ lat }) {
   const season = getSeason(lat, new Date().getMonth());
 
   return (
-    <div className={`season-display ${season.rule}`}>
+    <div className={`height-full center ${season.rule}`}>
       <i className='icon left'>{season.icon}</i>
       <h1>{season.text}</h1>
       <i className='icon right'>{season.icon}</i>
