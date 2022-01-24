@@ -9,3 +9,7 @@ export default function Spinner({ message }) {
     </div>
   );
 }
+
+Spinner.defaultProps = {
+  message: 'Loading...'
+};
